@@ -1,8 +1,8 @@
 n=int(input())
-m=n**0.5
+m=n**(0.5)
 for i in range(2):
-        p=m/n
-if (n==p):
-      print("perfect")
+        p=n/m
+if (m==p):
+      print("perfect square")
 else:
-      print("not perfect")     
+      print("not perfect square")     
